@@ -23,18 +23,29 @@ h1 {
 
 #logo {
     float: left;
-    margin-top: 20px;
     font-size: 300%;
 }
 
 #navigation {
-    font-size: 150%;
+    font-size: 110%;
     letter-spacing: 2px;
+}
+
+#logo, #navigation {
+    line-height: 100px;
 }
 
 #navigation li {
     float: right;
     list-style-type: none;
-    margin: 10px;
-    padding-right: 20px;
+    padding-right: 15px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid #545050;
 }
