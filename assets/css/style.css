@@ -63,4 +63,23 @@ h1 {
     width: 100%;
     background: url("https://i.imgur.com/YYuSnPk.jpg") no-repeat center center;
     background-color: #1D9CF3;
+    transition: background-color 1s linear;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-image:hover {
+    background-color: transparent; 
+}
+
+/*amimation for hero image zoom*/
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
