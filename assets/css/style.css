@@ -56,6 +56,12 @@ h1 {
     height: 500px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: whitesmoke;
 }
 
 #hero-image {
@@ -82,4 +88,24 @@ h1 {
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Assistant, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 250px;
+    height: 250px;
+
+    padding-top: 50px;
+    padding-left: 15px;
+
+    background-color: rgb(243, 137, 29, 0.6);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
