@@ -78,7 +78,7 @@ h1 {
 
 #hero-image:hover {
     
-    background-color: #1D9CF3; 
+    background-color: rgb(0, 151, 255,0.5); 
 }
 
 /*amimation for hero image zoom*/
