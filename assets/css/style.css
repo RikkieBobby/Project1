@@ -116,3 +116,29 @@ h1 {
     font-family: Abril Fatface, sans-serif;
     font-size: 200%;
 }
+
+/*about me section*/
+
+#aboutme {
+    height: 500px;
+}
+
+#aboutleft {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: red;
+}
+
+#aboutright {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: blue;
+}
+
+#aboutcenter {
+    width: 33%;
+    margin: 0 auto;
+    background: url("https://bestanimations.com/media/color-full-earth/152469542globe-earth-animation-15-2.gif") no-repeat center center;
+}
