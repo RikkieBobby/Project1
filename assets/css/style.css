@@ -49,3 +49,18 @@ h1 {
 #navigation a:hover {
     border-bottom: 1px solid #545050;
 }
+
+/* hero image*/
+
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url("https://i.imgur.com/YYuSnPk.jpg") no-repeat center center;
+    background-color: #1D9CF3;
+}
