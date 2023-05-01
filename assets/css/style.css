@@ -161,7 +161,7 @@ h1 {
 #workandeducation {
     text-align: center;
     height: 500px;
-    background: url("https://i.imgur.com/83lMY5f.jpg") center center / cover no-repeat fixed;
+    background: url("https://i.imgur.com/kJ5i7Si.jpg") center center / cover no-repeat fixed;
 }
 
 #wetitle {
@@ -183,9 +183,14 @@ margin-left: 20px;
 border: 1px solid grey;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 #work2 {
     overflow: scroll;
     text-align: left;
+    padding: 10px;
 }
 
 #myeducation {
@@ -197,4 +202,22 @@ border: 1px solid grey;
     border-radius: 8px;
     margin-right: 20px;
     border: 1px solid grey;
+}
+
+#education2 {
+    overflow: scroll;
+    text-align: left;
+    padding: 10px;
+}
+
+#workphoto {
+    margin: 0 auto;
+    height: 600px;
+    width: 300px;
+    border-radius: 8px;
+    background: url("https://i.imgur.com/iB7Spne.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    margin-right: 118%;
 }
