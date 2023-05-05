@@ -228,26 +228,62 @@ border: 1px solid grey;
 #teflphoto {
     height: 80%;
     width: 25%;
-    background-color: red;
+    
+    border-radius: 8px;
     position: relative;
     display: inline-block;
     margin: 20px;
+    float: left;
+    margin-left: 50px;
+    background: url("https://i.imgur.com/nXLhJrx.png"), center center;
+    background-size: cover;    
+    opacity: 25%;
+    transition: 2s;
+}
+
+#teflphoto:hover {
+    opacity: 100%;
+    transition: 2s;
 }
 
 #codephoto {
     height: 80%;
     width: 25%;
-    background-color: blue;
+
+    border-radius: 8px;
+    background-color: white;
     position: relative;
     display: inline-block;
     margin: 20px;
+    float: right;
+    margin-right: 50px;
+    background: url("https://i.imgur.com/D8xx7ZC.jpg") center center, no-repeat;
+    background-size: cover;
+    opacity: 25%;
+    transition: 2s;
+}
+
+#codephoto:hover {
+    opacity: 100%;
+    transition: 2s;
 }
 
 #collegephoto {
-    height: 80%;
-    width: 25%;
+    height: 55%;
+    width: 40%;
     background-color: green;
     position: relative;
     display: inline-block;
-    margin: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 10px;
+    background: url("https://i.imgur.com/1SQX2qQ.png") center center, no-repeat;
+    background-size: cover;
+    opacity: 25%;
+    transition: 2s;
+}
+
+#collegephoto:hover {
+    opacity: 100%;
+    transition: 2s;
 }
