@@ -1,10 +1,13 @@
-Welcome to Project 1 Readme.md. A landing page website with information about me.
+Welcome to the Readme.me for Project 1 "My First Landing Page" by Richard Nolan
+
+
 
 Key Features:
 - Created using HTML and CSS programmes
 - A navigation bar directing users to different parts of the page
 - An interactive website with information about me for users to view and explore
 - Areas of the page which are responsive to user interaction
+- Images linked to the project 
 - A "get in contact" form
 - Links to social media
 
@@ -18,3 +21,10 @@ How to launch the website:
 - You will now be viewing the website
 
 Learning objectives:
+
+Credits:
+- https://codeinstitute.net/ie/
+
+- https://courses.webdevsimplified.com/
+
+

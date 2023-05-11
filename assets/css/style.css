@@ -286,3 +286,8 @@ border: 1px solid grey;
     opacity: 100%;
     transition: 2s;
 }
+
+#iandhsection {
+    width: 100%;
+    height: 700px;
+}
