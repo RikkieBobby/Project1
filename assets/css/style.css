@@ -301,34 +301,48 @@ border: 1px solid grey;
     height: 700px;
     position: relative;
     margin-top: 100px;
+
+    background-image: url("https://i.imgur.com/GXyMRlE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
 #intereststitle {
     width: 15%;
     height: 10%;
+    color: whitesmoke;
 
     text-align: center;
     margin: 0 auto;
-    border: 1px solid grey;
+    border: 1px solid whitesmoke;
     border-radius: 8px;
 }
 
 #exercise {
     width: 30%;
     height: 80%;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
 }
 
 #gaming {
     width: 30%;
     height: 80%;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
 }
 
 #va {
     width: 30%;
     height: 80%;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
 }
 
 .textlarger {
     font-size: x-large;
     text-align: center;
+    color: whitesmoke;
 }
