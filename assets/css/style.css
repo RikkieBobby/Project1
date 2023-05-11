@@ -122,6 +122,11 @@ h1 {
 #aboutme {
     height: 500px;
     text-align: center;
+    position: relative;
+
+    margin-top: 100px;
+
+    margin-bottom: 100px;
 }
 
 #aboutleft {
@@ -151,8 +156,7 @@ h1 {
 #aboutcenter {
     width: 33%;
     margin: 0 auto;
-    height: 70%;
-    width: 100%;    
+    height: 70%;  
     background: url("https://bestanimations.com/media/color-full-earth/152469542globe-earth-animation-15-2.gif") no-repeat center center;
 }
 
@@ -163,6 +167,8 @@ h1 {
     height: 550px;
     width: 100%;
     background: url("https://i.imgur.com/kJ5i7Si.jpg") center center / cover no-repeat fixed;
+
+    position: relative;
 }
 
 #wetitle {
@@ -221,7 +227,8 @@ border: 1px solid grey;
 
 #qualifications {
     width: 100%;
-    height: 500px;
+    height: 1000px;
+    position: relative;
 }
 
 #teflphoto {
@@ -287,7 +294,41 @@ border: 1px solid grey;
     transition: 2s;
 }
 
-#iandhsection {
+/* interests and hobbies section */
+
+#interestsandhobbies {
     width: 100%;
     height: 700px;
+    position: relative;
+    margin-top: 100px;
+}
+
+#intereststitle {
+    width: 15%;
+    height: 10%;
+
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+#exercise {
+    width: 30%;
+    height: 80%;
+}
+
+#gaming {
+    width: 30%;
+    height: 80%;
+}
+
+#va {
+    width: 30%;
+    height: 80%;
+}
+
+.textlarger {
+    font-size: x-large;
+    text-align: center;
 }

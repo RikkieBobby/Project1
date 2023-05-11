@@ -25,6 +25,10 @@ Learning objectives:
 Credits:
 - https://codeinstitute.net/ie/
 
+
 - https://courses.webdevsimplified.com/
 
+
+- https://www.quackit.com/
+    
 
