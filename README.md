@@ -1,6 +1,9 @@
 Welcome to the Readme.me for Project 1 "My First Landing Page" by Richard Nolan
 
-
+Project description:
+As stated in the title this project was based around creating a landing page for a future website id like to create for myself about me and the services I can provide.
+My reasons for doing this were given the project is about myself, I would have enough content to fill out the page and also allow me to play around with the different elements of HTML and CSS.
+Considering that this was also my first project I wanted to take the time to understand how to use Git effectively and navigating using an IDE also. 
 
 Key Features:
 - Created using HTML and CSS programmes
@@ -21,6 +24,14 @@ How to launch the website:
 - You will now be viewing the website
 
 Learning objectives:
+-understand using HTML and CSS programmes by creating an interactive website 
+-familiarize with Git and IDE launcher
+-use code institute gudielines to achieve best possible grade
+
+Future work for the project:
+-seperate the website further into different pages with a range of services I offer
+-imporve the responsiveness of the website for mobile phone users
+-include a downloadable CV for potential recruiters and clients
 
 Credits:
 - https://codeinstitute.net/ie/
