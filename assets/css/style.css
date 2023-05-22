@@ -130,12 +130,23 @@ h1 {
     margin-bottom: 100px;
 }
 
+#abouttitle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
 #aboutleft {
     padding: 20px;
     width: 33%;
     float: left;
     transition: background-color 1s linear;
     border-radius: 8px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-shrink: 1;
 }
 
 #aboutleft:hover {
@@ -148,6 +159,10 @@ h1 {
     float: right;
     transition: background-color 1s linear;
     border-radius: 8px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-shrink: 1;
 }
 
 #aboutright:hover {
