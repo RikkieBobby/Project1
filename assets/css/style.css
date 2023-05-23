@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-
+    box-sizing: border-box;
 }
 
 body {
@@ -12,6 +12,23 @@ body {
     font-weight: 300;
     color: grey;
     flex-grow: 1;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
 }
 
 /* headings and logo*/
@@ -25,7 +42,7 @@ h1 {
 #logo {
     float: left;
     font-size: 300%;
-    margin-left: 20px;
+
 }
 
 #navigation {
@@ -40,7 +57,6 @@ h1 {
 #navigation li {
     float: right;
     list-style-type: none;
-    padding-right: 15px;
 }
 
 #navigation a {
@@ -50,6 +66,11 @@ h1 {
 
 #navigation a:hover {
     border-bottom: 1px solid #545050;
+}
+
+#navbar {
+    background-color: rgb(0, 0, 0, 0.4);
+    color: aliceblue;
 }
 
 /* hero image*/
@@ -94,7 +115,7 @@ h1 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 100%;
     font-family: Assistant, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -118,35 +139,24 @@ h1 {
     font-size: 200%;
 }
 
-/*about me section*/
+/* about me section*/
 
 #aboutme {
-    height: 500px;
     text-align: center;
+    height: 500px;
     position: relative;
-
-    margin-top: 100px;
-
-    margin-bottom: 100px;
+    overflow-y: scroll;
 }
 
 #abouttitle {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
+    text-align: center;
 }
 
 #aboutleft {
     padding: 20px;
-    width: 33%;
-    float: left;
     transition: background-color 1s linear;
     border-radius: 8px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-shrink: 1;
+    float: left;
 }
 
 #aboutleft:hover {
@@ -155,14 +165,9 @@ h1 {
 
 #aboutright {
     padding: 20px;
-    width: 33%;
-    float: right;
     transition: background-color 1s linear;
     border-radius: 8px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    flex-shrink: 1;
+    float: right;
 }
 
 #aboutright:hover {
@@ -170,9 +175,8 @@ h1 {
 }
 
 #aboutcenter {
-    width: 33%;
     margin: 0 auto;
-    height: 70%;  
+    height: 400px;
     background: url("https://bestanimations.com/media/color-full-earth/152469542globe-earth-animation-15-2.gif") no-repeat center center;
 }
 
@@ -180,83 +184,73 @@ h1 {
 
 #workandeducation {
     text-align: center;
-    height: 550px;
-    width: 100%;
     background: url("https://i.imgur.com/lFhvP0h.jpg") center center / cover no-repeat fixed;
-
+    height: 600px;
     position: relative;
 }
 
 #wetitle {
     background-color: whitesmoke;
-    width: 20%;
-    height: 110px;
     border-radius: 8px;
-    margin-left: 40%;
     border: 1px solid grey;
 }
+
 #mywork {
-float: left;
-text-align: center;
-width: 35%;
-height: 400px;
-background-color: whitesmoke;
-border-radius: 8px;
-margin-left: 20px;
-border: 1px solid grey;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-#work2 {
-    width: 95%;
-    height: 340px;
-    overflow-y: scroll;
-    text-align: left;
-    padding: 10px;
-    margin-left: 10px;
-}
-
-#myeducation {
-    float: right;
+    float: left;
     text-align: center;
-    height: 400px;
     width: 35%;
+    height: 400px;
     background-color: whitesmoke;
     border-radius: 8px;
-    margin-right: 20px;
+    margin-left: 20px;
     border: 1px solid grey;
-}
+    margin-top: 50px;
+    }
 
-#education2 {
-    width: 95%;
-    height: 340px;
-    overflow-y: scroll;
-    text-align: left;
-    padding: 10px;
-    margin-left: 10px;
-}
+    .bold {
+        font-weight: bold;
+    }
+    
+    #work2 {
+        height: 340px;
+        overflow-y: scroll;
+        text-align: left;
+        padding: 10px;
+        margin-left: 10px;
+    }
 
-/*qualifications photos*/
+    #myeducation {
+        float: right;
+        text-align: center;
+        height: 400px;
+        width: 35%;
+        background-color: whitesmoke;
+        border-radius: 8px;
+        margin-right: 20px;
+        margin-top: 50px;
+        border: 1px solid grey;
+    }
+    
+    #education2 {
+        width: 95%;
+        height: 340px;
+        overflow-y: scroll;
+        text-align: left;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    /*qualifications photos*/
 
 #qualifications {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     position: relative;
 }
 
 #teflphoto {
     height: 80%;
-    width: 25%;
-    
     border-radius: 8px;
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-    float: left;
-    margin-left: 50px;
     background: url("https://i.imgur.com/urMqEey.png"), center center;
     background-size: cover;    
     opacity: 25%;
@@ -269,17 +263,10 @@ border: 1px solid grey;
 }
 
 #codephoto {
-    height: 80%;
-    width: 25%;
+    height: 60%;
 
     border-radius: 8px;
-    background-color: white;
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-    float: right;
-    margin-right: 50px;
-    background: url("https://i.imgur.com/D8xx7ZC.jpg") center center, no-repeat;
+    background: url("https://i.imgur.com/Xlyqd0l.png") center center, no-repeat;
     background-size: cover;
     opacity: 25%;
     transition: 2s;
@@ -291,15 +278,11 @@ border: 1px solid grey;
 }
 
 #collegephoto {
-    height: 55%;
-    width: 40%;
-    background-color: green;
-    position: relative;
-    display: inline-block;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-left: 10px;
-    background: url("https://i.imgur.com/Xlyqd0l.png") center center, no-repeat;
+    height: 80%;
+
+    border-radius: 8px;
+    float: right;
+    background: url("https://i.imgur.com/D8xx7ZC.jpg") center center, no-repeat;
     background-size: cover;
     opacity: 25%;
     transition: 2s;
@@ -310,35 +293,49 @@ border: 1px solid grey;
     transition: 2s;
 }
 
+/* get in contact*/
+
+.centertext {
+    text-align: center;
+}
+
+#getincontact {
+    height: 450px;
+    position: relative;
+}
+
+input {
+    border: 2px solid grey;
+    font-size: large;
+}
+
+textarea {
+    border: 2px solid grey;
+    font-size: large;
+}
+
 /* interests and hobbies section */
 
 #interestsandhobbies {
-    width: 100%;
     height: 700px;
     position: relative;
-    margin-top: 100px;
+    text-align: center;
 }
 
 #intereststitle {
-    width: 15%;
     height: 10%;
     color: grey;
 
     text-align: center;
-    margin: 0 auto;
     border: 1px solid grey;
     border-radius: 8px;
 }
 
 #exercise {
-    width: 30%;
     height: 80%;
     border: 1px solid grey;
     border-radius: 8px;
     float: left;
-    margin-left: 40px;
-    margin-top: 20px;
-    display: inline-block;
 
     background-image: url("https://i.imgur.com/XaTG5tM.jpg");
     background-repeat: no-repeat;
@@ -348,15 +345,11 @@ border: 1px solid grey;
 }
 
 #gaming {
-    width: 30%;
     height: 80%;
-    color: antiquewhite;
+    color: black;
     border: 1px solid grey;
     border-radius: 8px;
-    float: left;
-    margin-left: 40px;
-    margin-top: 20px;
-    display: inline-block;
+    margin: auto;
 
     background-image: url("https://i.imgur.com/tj3ryve.jpg");
     background-repeat: no-repeat;
@@ -366,15 +359,11 @@ border: 1px solid grey;
 }
 
 #va {
-    width: 30%;
     height: 80%;
     color: whitesmoke;
     border: 1px solid grey;
     border-radius: 8px;
-    float: left;
-    margin-left: 40px;
-    margin-top: 20px;
-    display: inline-block;
+    float: right;
 
     background-image: url("https://i.imgur.com/Sot4kEI.jpg");
     background-repeat: no-repeat;
@@ -388,78 +377,57 @@ border: 1px solid grey;
     text-align: center;
 }
 
-/* get in contact*/
-
-.centertext {
-    text-align: center;
-}
-
-#getincontact {
-    width: 700px;
-    border: 2px solid grey;
-    margin: 0 auto;
-}
-
 /* footer */
 
 footer {
-    width: 100%;
     height: 150px;
+    float: right;
 }
 
 footer li {
-    width: 20%;
-    height: 100%;
-    display: inline-block;
-    text-align: center;
-    margin-left: 60px;
-    margin-top: 75px;
-    
+    list-style: none;
+    margin-left: 20%;
 }
 
-/* get in contact */
 
-input {
-    border: 2px solid grey;
-    font-size: large;
-}
 
-textarea {
-    border: 2px solid grey;
-    font-size: large;
-}
 
-/* media querey*/
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    #aboutme {
-        width: 90%;
-        height: 1200px;
-        display: flex;
-        flex-direction: column;
-    }
 
-    #abouttitle {
-        width: 90;
-        display: flex;
-        flex-direction: column;
-    }
 
-    #aboutleft {
-        width: 90;
-        display: flex;
-        flex-direction: column;
-    }
 
-    #aboutright {
-        width: 90;
-        display: flex;
-        flex-direction: column;
-    }
 
-    #aboutcenter {
-        width: 90;
-        display: flex;
-        flex-direction: column;
-    }
-}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
