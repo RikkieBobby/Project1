@@ -45,13 +45,14 @@ How to launch the website:
 - You will now be viewing the website
 
 Learning objectives:
--understand using HTML and CSS programmes by creating an interactive website 
--familiarize with Git and IDE launcher
--use code institute gudielines to achieve best possible grade
+- understand using HTML and CSS programmes by creating an interactive website 
+- familiarize with Git and IDE launcher
+- use code institute gudielines to achieve best possible grade
 
 Future work for the project:
--seperate the website further into different pages with a range of services I offer
--include a downloadable CV for potential recruiters and clients
+- seperate the website further into different pages with a range of services I offer
+- include a downloadable CV for potential recruiters and clients
+- an email address where the form submit will send the message to
 
 Credits:
 - https://codeinstitute.net/ie/
