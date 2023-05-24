@@ -25,7 +25,6 @@ Imagery
 - The opacity of the "qualifications" photos are set low until the user hovers over to allow them to focus on one photo at a time.
 - The hobbies and iterests section have images set to the background of the divs to convey part of my personality
 
-
 Key Features:
 - Created using HTML and CSS programmes
 - A navigation bar directing users to different parts of the page
@@ -42,7 +41,7 @@ How to launch the website:
 - When the repository is loaded into your IDE, go to the terminal
 - Type 'python3 -m http.server' into the termianl to run a browser for the website 
 - Click the open browser option which appears in your IDE
-- You will now be viewing the website
+- You will now be able to view the website
 
 Learning objectives:
 - understand using HTML and CSS programmes by creating an interactive website 
@@ -54,6 +53,21 @@ Future work for the project:
 - include a downloadable CV for potential recruiters and clients
 - an email address where the form submit will send the message to
 
+Validation
+At the completion or heavy editing of sections, I used the following websites to check my code for syntax errors:
+
+- HTML - https://validator.w3.org/
+- CSS - https://jigsaw.w3.org/css-validator/
+
+Responsiveness and testing
+
+- In order to make the website responsive, grid elements with box-sizing were used in the CSS to allow the website to respond to devices of all sizes, on mobile and tablets, the website will row into a signle colum which can then be scrolled through, while on desktop and large screens the page will spread out onto the screen to display each section individually. 
+- To test this I used the dev tools in google chrome to see how the website would respond to each of the variable screen sizes.
+- A worthy note, origionally I made the website desktop first and and sized down to a phone screen after, however better programming practice would be to build on a phone screen first and expand up to desktop after.
+- the responsiveness was also tested on both Google Chrome and Firefox to ensure consistency.
+- I also used a PNG compressor to bring down the file sizes of the images used to make the loading of the website quicker
+
+
 Credits:
 - https://codeinstitute.net/ie/
 
@@ -64,5 +78,9 @@ Credits:
 - https://fontawesome.com/
 
 - https://fonts.google.com/
+
+- https://tinypng.com/
+
+- https://www.w3schools.com/
     
 
