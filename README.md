@@ -9,6 +9,11 @@ Considering that this was also my first project I wanted to take the time to und
 
 A link to the live website can be found here: https://rikkiebobby.github.io/Project1/
 
+Learning objectives:
+- understand using HTML and CSS programmes by creating an interactive website 
+- familiarize with Git and IDE launcher
+- use code institute gudielines to achieve best possible grade
+
 User Experience (UX) 
 - As a user I want to be able to understand the website at first look
 - As a user, I want to be able to know more about the person who created the website
@@ -25,20 +30,20 @@ Typography
 
 Imagery
 - The hero image used is of me in a nature setting to keep in line the "down to earth" design and also aloow the user to connect with me as a person.
-- Backgorund image is the "work and education" used to breakup the flat white tone and inject some interest into the section.
+- Backgorund image of the "work and education" section is used to breakup the flat white tone and inject some interest into the section.
 - The opacity of the "qualifications" photos are set low until the user hovers over to allow them to focus on one photo at a time.
 - The hobbies and iterests section have images set to the background of the divs to convey part of my personality
 
-All images used were photos taken by myself or pdf documents of mine, apart from the work and education (https://www.istockphoto.com/) and voice acting photos (https://depositphotos.com/)
+All images used were photos taken by myself or pdf documents of mine, apart from the work and education section (https://www.istockphoto.com/), about me globe (https://bestanimations.com/) and voice acting div photos (https://depositphotos.com/). I also decided to use the image hosting site Imgur.com to store my photos as I found it a little easier to manage than using a CSS file.
 
-<h3>Features, objectives and future</h3>
+<h3>Features</h3>
 
 Key Features:
 - Created using HTML and CSS programmes
-- A navigation bar directing users to different parts of the page
-- An interactive website with information about me for users to view and explore
+- An interactive website about me consisting of 6 sections across 2 HTML pages
+- A navigation bar directing users to different parts of the page across both pages
 - Areas of the page which are responsive to user interaction
-- Images linked to the project 
+- Images linked to the project through a image hosting site
 - A "get in contact" form
 - Links to social media
 
@@ -51,17 +56,12 @@ How to launch the website:
 - Click the open browser option which appears in your IDE
 - You will now be able to view the website
 
-Learning objectives:
-- understand using HTML and CSS programmes by creating an interactive website 
-- familiarize with Git and IDE launcher
-- use code institute gudielines to achieve best possible grade
-
 Future work for the project:
 - seperate the website further into different pages with a range of services I offer
 - include a downloadable CV for potential recruiters and clients
 - an email address where the form submit will send the message to
 
-<h3>Validation</h3>
+<h3>Testing</h3>
 
 At the completion or heavy editing of sections, I used the following websites to check my code for syntax errors:
 
