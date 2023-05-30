@@ -7,13 +7,15 @@ Considering that this was also my first project I wanted to take the time to und
 
 <img src="https://i.imgur.com/wcTFmSU.png">
 
+A link to the live website can be found here: https://rikkiebobby.github.io/Project1/
+
 User Experience (UX) 
 - As a user I want to be able to understand the website at first look
 - As a user, I want to be able to know more about the person who created the website
 - As a user, I want to be guided through the page without having to open many new tabs
 - As a user, I want to be able to contact the developer should I choose
 
-Design
+<h3>Design</h3>
 For this website I decided to use as many "earth" tone colors (e.g. blue, green, grey and yellow/orange) as I could to convey a "down to earth" feeling to the website while still maintaining a white background as much as possible as not to overwhelm the user and keep their attention on key areas.
 
 Typography
@@ -26,6 +28,10 @@ Imagery
 - Backgorund image is the "work and education" used to breakup the flat white tone and inject some interest into the section.
 - The opacity of the "qualifications" photos are set low until the user hovers over to allow them to focus on one photo at a time.
 - The hobbies and iterests section have images set to the background of the divs to convey part of my personality
+
+All images used were photos taken by myself or pdf documents of mine, apart from the work and education (https://www.istockphoto.com/) and voice acting photos (https://depositphotos.com/)
+
+<h3>Features, objectives and future</h3>
 
 Key Features:
 - Created using HTML and CSS programmes
@@ -55,7 +61,8 @@ Future work for the project:
 - include a downloadable CV for potential recruiters and clients
 - an email address where the form submit will send the message to
 
-Validation
+<h3>Validation</h3>
+
 At the completion or heavy editing of sections, I used the following websites to check my code for syntax errors:
 
 - HTML - https://validator.w3.org/
@@ -68,6 +75,7 @@ Responsiveness and testing
 - A worthy note, origionally I made the website desktop first and and sized down to a phone screen after, however better programming practice would be to build on a phone screen first and expand up to desktop after.
 - the responsiveness was also tested on both Google Chrome and Firefox to ensure consistency.
 - I also used a PNG compressor to bring down the file sizes of the images used to make the loading of the website quicker
+
 
 
 Credits:
@@ -84,5 +92,9 @@ Credits:
 - https://tinypng.com/
 
 - https://www.w3schools.com/
+
+- https://depositphotos.com/
+
+- https://www.istockphoto.com/
     
 
