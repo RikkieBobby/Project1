@@ -76,9 +76,11 @@ Responsiveness and testing
 - the responsiveness was also tested on both Google Chrome and Firefox to ensure consistency.
 - I also used a PNG compressor to bring down the file sizes of the images used to make the loading of the website quicker
 
-Lighthouse
+<h4>Lighthouse</h4>
 
 <img src="https://i.imgur.com/EDoCh58.png">
+
+Lighthouse was used to measure the preformance and accessibility of the website, ensuring load times and image files where not too large and that the visually impaired could access the website with ease. 
 
 Credits:
 - https://codeinstitute.net/ie/
