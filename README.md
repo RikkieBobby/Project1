@@ -76,7 +76,9 @@ Responsiveness and testing
 - the responsiveness was also tested on both Google Chrome and Firefox to ensure consistency.
 - I also used a PNG compressor to bring down the file sizes of the images used to make the loading of the website quicker
 
+Lighthouse
 
+<img src="https://i.imgur.com/EDoCh58.png">
 
 Credits:
 - https://codeinstitute.net/ie/
