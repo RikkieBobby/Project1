@@ -1,9 +1,11 @@
-Welcome to the Readme.me for Project 1 "My First Landing Page" by Richard Nolan
+<h2>Welcome to the Readme.me for Project 1 "My First Landing Page" by Richard Nolan</h2>
 
 Project description:
 As stated in the title this project was based around creating a landing page for a future website id like to create for myself about me and the services I can provide.
 My reasons for doing this were given the project is about myself, I would have enough content to fill out the page and also allow me to play around with the different elements of HTML and CSS.
 Considering that this was also my first project I wanted to take the time to understand how to use Git effectively and navigating using an IDE also. 
+
+<img src="https://i.imgur.com/wcTFmSU.png">
 
 User Experience (UX) 
 - As a user I want to be able to understand the website at first look
