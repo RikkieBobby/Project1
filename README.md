@@ -47,15 +47,6 @@ Key Features:
 - A "get in contact" form
 - Links to social media
 
-How to launch the website:
-- You will need access to GitHub and IDE launcher
-- Go to the GitHub repository (https://github.com/RikkieBobby/Project1)
-- From there you can open the Repository using GitPod, if you don't have GitPod copy the repository url and load it into your IDE
-- When the repository is loaded into your IDE, go to the terminal
-- Type 'python3 -m http.server' into the termianl to run a browser for the website 
-- Click the open browser option which appears in your IDE
-- You will now be able to view the website
-
 Future work for the project:
 - seperate the website further into different pages with a range of services I offer
 - include a downloadable CV for potential recruiters and clients
@@ -76,11 +67,61 @@ Responsiveness and testing
 - the responsiveness was also tested on both Google Chrome and Firefox to ensure consistency.
 - I also used a PNG compressor to bring down the file sizes of the images used to make the loading of the website quicker
 
+Device Testing
+Through devices that I have at home/readily available to me, I was able to continuously test on:
+
+Phone:
+- iPhone 8
+- iPhone 12
+- Samsung Galaxy 10
+
+Tablet:
+- iPad mini
+- iPad air
+
+Computer:
+- MacBook Pro
+- HP Pavillion
+
 <h4>Lighthouse</h4>
 
 <img src="https://i.imgur.com/EDoCh58.png">
 
 Lighthouse was used to measure the preformance and accessibility of the website, ensuring load times and image files where not too large and that the visually impaired could access the website with ease. 
+
+Preformance:
+- overall the website preformace is good, the photos I used were already relativly small in size so helped to keep the page running well.
+
+Accessibility:
+- The social media links don't have any text, just 'i' elements.
+- overall pleased with the accessibility
+
+Best Practices:
+- The external libraries and social media links were flagged as potential security risks.
+- some of the items from font awesome were having difficulty loading in so they were removed
+
+SEO:
+- At the moment the site isn't going to be used outside of this CI project so I'm not adding a meta description but it is something to consider including for a professional project.
+
+<h4>Bugs and Fixes</h4>
+
+For the most part any bugs or fixes encountered were quite minor, examples include:
+- missing a closing tag to a div in the index
+- incorrect closing tag on a section in the index
+- overlapping code in the CSS
+
+These errors were noted when using the validators and fixed when noted.
+
+<h3>Deployment</h3>
+
+How to launch the website:
+- You will need access to GitHub and IDE launcher
+- Go to the GitHub repository (https://github.com/RikkieBobby/Project1)
+- From there you can open the Repository using GitPod, if you don't have GitPod copy the repository url and load it into your IDE
+- When the repository is loaded into your IDE, go to the terminal
+- Type 'python3 -m http.server' into the termianl to run a browser for the website 
+- Click the open browser option which appears in your IDE
+- You will now be able to view the website
 
 Credits:
 - https://codeinstitute.net/ie/
